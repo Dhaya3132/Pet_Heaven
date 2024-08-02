@@ -2,12 +2,12 @@ import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import Logo from '../assets/Logo.png'
-import { Link } from "react-router-dom"
+
 
 function Navbar() {
     return (
-        <div className="p-6">
-            <nav className="flex justify-center items-center gap-24 font-JosefinSans border-solid border-2 border-slate-200 w-fit px-9 py-1 mx-auto rounded-full shadow-lg">
+        <div className="p-6 z-10">
+            <nav className="flex justify-center items-center gap-24 font-JosefinSans border-solid border-2 border-slate-200 w-fit px-9 py-1 mx-auto rounded-full shadow-lg bg-white">
                 <div className="flex  gap-0 items-center justify-center">
                     <img src={Logo} alt="Logo" className="w-20 h-20" />
                     <p className="font-DancingScript text-2xl font-bold text-black p-0 m-0">Pet Heaven</p>

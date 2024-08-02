@@ -6,8 +6,11 @@ import Body from './Components/Body'
 function App() {
   return (
     <>
-      <Navbar />
-      <Body />
+      <div className='bg-green-50'>
+        <Navbar />
+        <Body />
+      </div>
+
     </>
 
   )

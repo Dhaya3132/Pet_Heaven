@@ -1,6 +1,8 @@
 import React from "react";
 import { Content_Data } from "../Data/Content";
 import Dog from '../assets/pngwing.com.png'
+import Dog1 from '../assets/image3-removebg-preview.png'
+import Dog3 from '../assets/DogFood3.png'
 import Button from "./Button";
 
 function Body() {
@@ -11,21 +13,22 @@ function Body() {
             <div className="flex justify-center items-center mt-10 gap-10 mx-auto">
                 <div>
                     <div className="w-80">
-                        <Button>Order now</Button>
-                        <p className="font-light text-3xl text-slate-400 mt-1">
+                        <p className="font-light text-3xl text-slate-700 mt-1">
                             {Content_Data.Description}
                         </p>
+                        <img src={Dog3} alt="image" className="w-44 h-44 mt-2" />
                     </div>
                 </div>
 
-                <div id="images" className="w-1/3 h-1/6 rounded-full bg-pink-200">
+                <div id="images" className="w-1/3 h-1/6 rounded-full bg-Star shadow-2xl">
                     <img src={Dog} alt="image" className="w-full h-full " />
                 </div>
 
                 <div className="relative w-80">
-                    <div className="absolute bottom-7">
-                        <p className="font-light text-2xl text-slate-400 mb-2">
-                            {Content_Data.Description}
+                    <div className="absolute bottom-4 z-0">
+                        <img src={Dog1} alt="image" className="w-44 h-50" />
+                        <p className="font-light text-4xl text-slate-900 mb-4">
+                            Purr-fect Companions, Paw-some Services
                         </p>
                         <Button>Shop now</Button>
                     </div>
