@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily:{
         'JosefinSans':["Josefin+Sans"],
-        'DancingScript' :['Dancing Script']
+        'DancingScript' :['Dancing Script'],
+        'Poppins':['Poppins']
       },
       colors :{
         'Primary' : "#8338ec",
